@@ -21,6 +21,9 @@ def read_file(file_name):
         # Número de períodos
         periods = int(input_file.readline().split()[1])	
         
+        # Data Inicial
+        initial_date = input_file.readline().split()[1]
+
         # Pula linha de título
         input_file.readline()
 
@@ -124,4 +127,4 @@ def read_file(file_name):
         "demands": tuple(demands)
     }
 
-    return (constants, mapping_products_name)
+    return (constants, mapping_products_name, initial_date)

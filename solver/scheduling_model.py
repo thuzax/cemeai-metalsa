@@ -42,7 +42,7 @@ class SchedulingModel():
         # X_jt
         self.products = [
             [
-                self.model.add_var("X_"+str(j)+","+str(t), var_type=INTEGER, lb=0)
+                self.model.add_var(self.get_var_name("X", j, t), var_type=INTEGER, lb=0)
                 for t in range(self.periods)
             ]
             for j in range(self.num_products)
@@ -51,7 +51,7 @@ class SchedulingModel():
         # Y_jt
         self.setup = [
             [
-                self.model.add_var("Y_"+str(j)+","+str(t), var_type=BINARY, lb=0)
+                self.model.add_var(self.get_var_name("Y", j, t), var_type=BINARY, lb=0)
                 for t in range(self.periods)
             ]
             for j in range(self.num_products)
@@ -60,7 +60,7 @@ class SchedulingModel():
         # I_jt
         self.inventory = [
             [
-                self.model.add_var("I_"+str(j)+","+str(t), var_type=CONTINUOUS, lb=0)
+                self.model.add_var(self.get_var_name("I", j, t), var_type=CONTINUOUS, lb=0)
                 for t in range(self.periods)
             ]
             for j in range(self.num_products)
@@ -150,4 +150,8 @@ class SchedulingModel():
             os.remove("temp.lp")
         
         return
+    
+    @staticmethod
+    def get_var_name(preffix, j=None, t=None):
+        return (str(preffix)+"_"+str(j)+","+str(t))
 

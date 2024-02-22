@@ -30,4 +30,17 @@ O *scheduling* de compras foi feito utilizando um modelo matemático. Seu códig
 
 ## Autores
 
-Antonio Bonato Jr., Henrique Okida, Caio P. Tomazella, Arthur H. S. Cruz, Yuri M. Mizusawa, Maristela O. Santos, Marcos Furlan, Socorro Rangel, José A. Cuminato ... (preencher restante)
+Antonio Bonato Junior (Metalsa)
+Arthur Henrique Souza Cruz (ICMC/USP)
+Caio Paziani Tomazella (ICMC/USP)
+Cesar A. Ipanaque Zapata (IME/USP)
+Henrique Okida (Metalsa)
+Henry Willian Nascimento Leal (UFRJ)
+Julio Michael Stern (IME/USP)
+Marcos Mansano Furlan (UFGD)
+Maristela Oliveira dos Santos (ICMC/USP)
+Oilson Alberto Gonzatto Junior (ICMC/USP)
+Paulo Henrique Brasil Ribeiro (DE/UFSCar - ICMC/USP)
+Socorro Rangel (UNESP)
+Vicente Garibay Cancho (ICMC/USP)
+Yuri Masakazu Mizusawa (ICMC/USP)

@@ -7,8 +7,9 @@ O código do modelo matemático para a solução do problema foi implementado em
 - [solver_schedule.py](solver_schedule.py): programa principal a ser executado. 
 
     **Entradas**: 
-        1. Caminho absoluto para o arquivo contendo a instância a ser resolvida. Seu formato deve seguir o descrito na Seção *Instâncias* deste guia.
-        2. Caminho absoluto do arquivo onde deve ser salva a solução. Seu formato deve ser CSV.
+    1) Caminho absoluto para o arquivo contendo a instância a ser resolvida. Seu formato deve seguir o descrito na Seção *Instâncias* deste guia.
+        
+    2) Caminho absoluto do arquivo onde deve ser salva a solução. Seu formato deve ser CSV.
 
 - [read_input.py](read_input.py): implementação a leitura de uma instância do problema.
 

@@ -4,7 +4,7 @@ Código desenvolvido para a solução do problema de Scheduling de compras apres
 
 ## Problema
 
-O problema apresentado consiste em predizer a demanda de produtos e definir as melhores datas suas compras de lotes dos produtos em um intervalo de tempo previamente definido, conhecido como horizonte de planejamento. Esta solução considera:
+O problema apresentado consiste em predizer a demanda e definir as melhores datas para a compra de lotes de produtos em um intervalo de tempo previamente definido (horizonte de planejamento). Esta implementação considera esse problema com as seguintes características adicionais:
 
 - Estoque inicial
 - Diferentes Lead Times para cada produto

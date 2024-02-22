@@ -25,11 +25,11 @@ def solve_shopping_scheduling(argv):
     scheduling.print_model()
     scheduling.solve_problem()
 
-    for name, value in scheduling.solution_data.items():
-        print(name, value)
+    # for name, value in scheduling.solution_data.items():
+    #     print(name, value)
     
-    print(mapping_names)
-    print(initial_date)
+    # print(mapping_names)
+    # print(initial_date)
 
     data_to_write = (
         mapping_names,

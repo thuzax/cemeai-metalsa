@@ -88,7 +88,10 @@ def write_file(file_path_str, data):
             line.append(produtcs_arrived[j][t])
             line.append(demands[j][t+max_lead_time])
             line.append(total_inventory[j][t])
-            line.append(total_products[j][t]*purchase_costs[j][t+max_lead_time])
+            cost_setup = 0
+            if (total_products[j][t] != 0):
+                cost_setup = fixed_costs[j][t]
+            line.append(total_products[j][t]*purchase_costs[j][t+max_lead_time]+cost_setup)
             dataframe_matrix.append(line)
 
     dataframe_output = pandas.DataFrame(

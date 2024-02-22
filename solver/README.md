@@ -15,9 +15,9 @@ O código do modelo matemático para a solução do problema foi implementado em
 
 - [read_input.py](read_input.py): implementação a leitura de uma instância do problema.
 
--[scheduling_model.py](scheduling_model.py): classe que implementa o modelo matemático que resolve o problema de *scheduling* de compras.
+- [scheduling_model.py](scheduling_model.py): classe que implementa o modelo matemático que resolve o problema de *scheduling* de compras.
 
--[write_output.py](write_output.py): implementação da escrita de um arquivo CSV contendo os resultados obtidos pelo modelo.
+- [write_output.py](write_output.py): implementação da escrita de um arquivo CSV contendo os resultados obtidos pelo modelo.
 
 
 ## Requisitos

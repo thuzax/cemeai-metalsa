@@ -2,9 +2,6 @@
 # Bilbiotecas ----------------------------------------------------
 library(data.table)
 library(ggplot2)
-library(reshape)
-library(reshape)
-library(viridis)
 library(readxl)
 library(lubridate)
 library(stringr)

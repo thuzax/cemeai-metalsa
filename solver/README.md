@@ -2,7 +2,7 @@
 
 ## Estrutura do código
 
-O código do modelo matemático implementado para a solução do problema foi implementado na seguinte estrutura de arquivos:
+O código do modelo matemático para a solução do problema foi implementado em Python na seguinte estrutura de arquivos:
 
 - [solver_schedule.py](solver_schedule.py): programa principal a ser executado. 
 
@@ -15,6 +15,21 @@ O código do modelo matemático implementado para a solução do problema foi im
 -[scheduling_model.py](scheduling_model.py): classe que implementa o modelo matemático que resolve o problema de *scheduling* de compras.
 
 -[write_output.py](write_output.py): implementação da escrita de um arquivo CSV contendo os resultados obtidos pelo modelo.
+
+
+## Requisitos
+
+Os módulos presentes no arquivo [requirements.txt](requirements.txt) devem estar instalados para a execução do código.
+
+## Linha de comando para execução
+
+O código do modelo é executado a partir da seguinte linha de comando:
+
+``python solver_schedule.py <caminho-arquivo-entrada> <caminho-arquivo-saida> <código-solver>``
+
+Os campos \<caminho-arquivo-entrada> e \<caminho-arquivo-saida> são, respectivamente os caminhos para a instância (formato txt) a ser lida e o caminho onde deve ser salva a solução (formato csv).
+
+O campo \<código-solver> é opicional e reprenseta o código que do *solver* que será utilizado. Os valores desse campo podem ser referentes ao *solver* Gurobi (código GRB) ou ao *solver* Coin-OR/CBC (código CBC). Se não for passado esse campo, o *solver* Coin-OR/CBC é utilizado.
 
 
 ## Instâncias

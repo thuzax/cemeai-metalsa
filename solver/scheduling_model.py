@@ -4,7 +4,7 @@ from mip import *
 
 class SchedulingModel():
 
-    def __init__(self, constants_data):
+    def __init__(self, constants_data, solver_name):
         self.num_products = constants_data["num_products"]
         self.periods = constants_data["periods"]
         self.purchase_costs = constants_data["purchase_costs"]
@@ -16,10 +16,12 @@ class SchedulingModel():
         self.lot_sizes = constants_data["lot_sizes"]
         self.demands = constants_data["demands"]
 
+        self.solver_name = solver_name
+
         self.initialize_model()
 
     def initialize_model(self):
-        self.model = Model(sense=MINIMIZE, solver_name="GRB")
+        self.model = Model(sense=MINIMIZE, solver_name=self.solver_name)
         self.create_vars()
         self.define_object_function()
         self.create_constraints()
@@ -141,6 +143,7 @@ class SchedulingModel():
         self.solution_data = {}
         for var in self.model.vars:
             self.solution_data[var.name] = var.x
+        
 
     def print_model(self):
         self.model.write("temp.lp")

@@ -16,13 +16,16 @@ def solve_shopping_scheduling(argv):
 
     input_file_name = argv[1]
     output_file_name = argv[2]
+    solver_name = "CBC"
+    if (len(argv) >= 4):
+        solver_name = argv[3]
 
     constants, mapping_names, initial_date = read_file(input_file_name)
 
-    print(constants)
+    # print(constants)
 
-    scheduling = SchedulingModel(constants_data=constants)
-    scheduling.print_model()
+    scheduling = SchedulingModel(constants_data=constants, solver_name=solver_name)
+    # scheduling.print_model()
     scheduling.solve_problem()
 
     # for name, value in scheduling.solution_data.items():

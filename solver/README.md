@@ -7,14 +7,14 @@ O código do modelo matemático implementado para a solução do problema foi im
 - [solver_schedule.py](solver_schedule.py): programa principal a ser executado. 
 
     **Entradas**: 
-        1. Caminho absoluto para o arquivo contendo a instância a ser resolvida. Seu formato deve seguir o descrito na Seção *Instâncias* deste guia.*
-        2. Caminho absoluto do arquivo onde deve ser salva a solução. Seu formato deve ser CSV.*
+        1. Caminho absoluto para o arquivo contendo a instância a ser resolvida. Seu formato deve seguir o descrito na Seção *Instâncias* deste guia.
+        2. Caminho absoluto do arquivo onde deve ser salva a solução. Seu formato deve ser CSV.
 
-- [read_input.py](read_input.py): implementação a leitura de uma instância do problema.*
+- [read_input.py](read_input.py): implementação a leitura de uma instância do problema.
 
--[scheduling_model.py](scheduling_model.py): classe que implementa o modelo matemático que resolve o problema de *scheduling* de compras.*
+-[scheduling_model.py](scheduling_model.py): classe que implementa o modelo matemático que resolve o problema de *scheduling* de compras.
 
--[write_output.py](write_output.py): implementação da escrita de um arquivo CSV contendo os resultados obtidos pelo modelo.*
+-[write_output.py](write_output.py): implementação da escrita de um arquivo CSV contendo os resultados obtidos pelo modelo.
 
 
 ## Instâncias

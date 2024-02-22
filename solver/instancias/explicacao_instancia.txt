@@ -1,0 +1,66 @@
+Numero_Produtos <numero-de-prods (N)>
+Codigo	Descrição
+<id-prod-1>	<nome-prod-1>
+<id-prod-1>	<nome-prod-2>
+.
+.
+.
+<id-prod-N>	<nome-prod-N>
+Número_Períodos	<numero-de-periodos (T)>
+Data_Inicial <data-inial (dd/mm/yyyy)>
+Custos_Compra
+<custo-prod-1-periodo-1> <custo-prod-1-periodo-2> ... <custo-prod-1-periodo-T>
+<custo-prod-2-periodo-1> <custo-prod-2-periodo-2> ... <custo-prod-2-periodo-T>
+.
+.
+.
+<custo-prod-N-periodo-1> <custo-prod-N-periodo-2> ... <custo-prod-N-periodo-T>
+Custos_Fixos
+<custo-fixo-prod-1-periodo-1> <custo-fixo-prod-1-periodo-2> ... <custo-fixo-prod-1-periodo-T>
+<custo-fixo-prod-2-periodo-1> <custo-fixo-prod-2-periodo-2> ... <custo-fixo-prod-2-periodo-T>
+.
+.
+.
+<custo-fixo-prod-N-periodo-1> <custo-fixo-prod-N-periodo-2> ... <custo-fixo-prod-N-periodo-T>
+Lead_Times
+<lead-time-prod-1>
+<lead-time-prod-2>
+.
+.
+.
+<lead-time-prod-N>
+Custos_Estoque
+<custo-estoque-prod-1-periodo-1> <custo-estoque-prod-1-periodo-2> ... <custo-estoque-prod-1-periodo-T>
+<custo-estoque-prod-2-periodo-1> <custo-estoque-prod-2-periodo-2> ... <custo-estoque-prod-2-periodo-T>
+.
+.
+.
+<custo-estoque-prod-N-periodo-1> <custo-estoque-prod-N-periodo-2> ... <custo-estoque-prod-N-periodo-T>
+Estoque_Inicial
+<estoque-inicial-prod-1>
+<estoque-inicial-prod-2>
+.
+.
+.
+<estoque-inicial-prod-N>
+Lote_Mínimo
+<lote-minimo-prod-1>
+<lote-minimo-prod-2>
+.
+.
+.
+<lote-minimo-prod-N>
+Tamanho_Lote
+<tamanho-lote-prod-1>
+<tamanho-lote-prod-2>
+.
+.
+.
+<tamanho-lote-prod-N>
+Demanda
+<previsao-demanda-prod-1-periodo-1> <previsao-demanda-prod-1-periodo-2> ... <previsao-demanda-prod-1-periodo-T>
+<previsao-demanda-prod-2-periodo-1> <previsao-demanda-prod-2-periodo-2> ... <previsao-demanda-prod-2-periodo-T>
+.
+.
+.
+<previsao-demanda-prod-N-periodo-1> <previsao-demanda-prod-N-periodo-2> ... <previsao-demanda-prod-N-periodo-T>

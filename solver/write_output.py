@@ -67,8 +67,8 @@ def write_file(file_path_str, data):
             produtcs_arrived[j].append(value_product * lot_sizes[j])
 
 
-    # Data|Peça ID|Descrição|   Número de   |Tamanho| Estoque|    Total de   | Previsão |  Estoque   |  Custo  |
-    #                       |Lotes a Comprar|do Lote|Anterior|Peças a Comprar|de Demanda|após Atender|de Compra| 
+    # Data|Produto ID|Descrição|   Número de   |Tamanho| Estoque|     Total de    | Previsão |  Estoque   |  Custo  |
+    #                          |Lotes a Comprar|do Lote|Anterior|Produto a Comprar|de Demanda|após Atender|de Compra| 
 
 
     dataframe_matrix = []

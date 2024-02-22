@@ -1,3 +1,4 @@
 numpy==1.24.2
 pandas==1.5.3
 gurobipy==11.0.0
+mip==1.15.0

@@ -11,6 +11,8 @@ O código do modelo matemático para a solução do problema foi implementado em
         
     2) Caminho absoluto do arquivo onde deve ser salva a solução. Seu formato deve ser CSV.
 
+    3) (Opcional) Código do *solver*, podendo ser 'GRB' (para o Gurobi) ou 'CBC' (para o Coin-OR/CBC)
+
 - [read_input.py](read_input.py): implementação a leitura de uma instância do problema.
 
 -[scheduling_model.py](scheduling_model.py): classe que implementa o modelo matemático que resolve o problema de *scheduling* de compras.
